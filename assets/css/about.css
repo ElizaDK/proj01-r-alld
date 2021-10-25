@@ -1,0 +1,74 @@
+.about{
+    display: flex;
+    padding: 4rem 0;
+}
+.about .image-about{
+    width: 120px;
+    flex: 1 1 20rem;
+}
+.about .image-about .borda-laranja{
+    
+    border: .5rem solid var(--color-secundary);
+    position: absolute;
+    width: 120px;
+    height: 120px;
+}
+.about .image-about img{
+    width: 100%;
+    flex: 1 1 30rem;
+    position: relative;
+}
+.about .image-about img:hover{
+    border: .5rem solid var(--color-secundary);
+}
+
+.about .wrap-text{
+    width: 450px;
+    padding: 4rem 1rem;
+}
+.about .wrap-text .title{
+    color: var(--color-secundary);
+    padding: 1rem 0;
+}
+.about .wrap-text .cita h2{
+    font-size: 1.2rem;
+    padding-bottom: 1rem;
+    line-height: 1.2;
+}
+.about .wrap-text .cita p{
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+
+/*quote*/
+
+.quote{
+    background-image: url(../images/banner-frase.jpg);
+    background-position: center;
+    background-size: cover;
+    height:300px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quote .text-quote{
+    color: var(--color-secundary);
+    text-align: center;
+    font-size: 2.2rem;
+    padding-top: 80px;
+    padding-bottom: 2rem;
+}
+
+.quote .text-quote span{
+    color: var(--color-text-white);
+    
+    font-size: 1rem;
+    text-align: left;
+}
+.quote .text-quote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
